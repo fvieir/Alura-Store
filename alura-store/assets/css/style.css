@@ -12,16 +12,18 @@
 }
 
 .cabecalho {
-    background-color: red;
     grid-area: cabecalho;
 }
  
 .conteudo {
-    background-color: green;
     grid-area: conteudo;
 }
 
 .rodape {
-    background-color: blue;
     grid-area: rodape;
+}
+
+.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
