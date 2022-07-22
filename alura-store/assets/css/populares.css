@@ -11,25 +11,26 @@
 }
 
 .populares__conteudo {
-    margin-top: 1rem;
-
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+
+    grid-area: conteudo;
+    
+    padding: 1rem 0rem;
 }
 
 .populares__card {
-    background:#fdfdfd;
+  background: #fdfdfd;
+  display: grid;
 
-    width: calc(20% - 1rem);
-    margin-right: 1rem;
+  grid-template-areas: 
+      "card-imagem"
+      "card-corpo";
+  grid-template-columns: 100%;
+  grid-template-rows: 173px auto;
 
-
-    display: grid;
-    grid-template-areas: 
-        "card-imagem"
-        "card-corpo";
-    grid-template-columns: 100%;
-    grid-template-rows: 137px auto;
+  margin-right: 1rem;
+  width: calc(20% - 1rem);
 }
 
 .populares__card___imagem {
