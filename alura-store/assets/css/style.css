@@ -9,8 +9,6 @@
         "rodape";
     grid-template-columns: auto;
     grid-template-rows: 50px auto auto;
-
-    overflow-x: hidden;
 }
 
 .cabecalho {
@@ -24,13 +22,16 @@
  
 .conteudo {
     grid-area: conteudo;
+    padding: 0 2rem;
 }
 
 .rodape {
     grid-area: rodape;
-}
 
-.container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    background:  #fdfdfd;
+    text-align: center;
+    color: #333333;
+    font-size: 1rem;
+
+    padding: 1rem;
 }
