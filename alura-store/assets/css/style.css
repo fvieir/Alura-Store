@@ -9,10 +9,16 @@
         "rodape";
     grid-template-columns: auto;
     grid-template-rows: 50px auto auto;
+
+    overflow-x: hidden;
 }
 
 .cabecalho {
     grid-area: cabecalho;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
  
 .conteudo {
